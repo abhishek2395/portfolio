@@ -7,6 +7,7 @@ import ChapterEval from "@/components/ChapterEval";
 import ChapterRules from "@/components/ChapterRules";
 import Process from "@/components/Process";
 import Experience from "@/components/Experience";
+import Research from "@/components/Research";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
@@ -23,6 +24,7 @@ export default function Home() {
         <ChapterRules />
         <Process />
         <Experience />
+        <Research />
         <Contact />
       </main>
       <div className="relative z-10">
