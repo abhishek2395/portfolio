@@ -8,6 +8,7 @@ import ChapterRules from "@/components/ChapterRules";
 import Process from "@/components/Process";
 import Experience from "@/components/Experience";
 import Research from "@/components/Research";
+import Testimonials from "@/components/Testimonials";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
 
@@ -25,6 +26,7 @@ export default function Home() {
         <Process />
         <Experience />
         <Research />
+        <Testimonials />
         <Contact />
       </main>
       <div className="relative z-10">
